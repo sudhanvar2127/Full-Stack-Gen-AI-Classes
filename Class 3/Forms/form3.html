@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 3</title>
+</head>
+<body>
+    <h1>Website Design Form</h1>
+    <hr>
+    <fieldset>
+        <legend>Aman Sales</legend>
+        <form>
+            <label for="name">Full Name :</label>
+            <input type="text" name="name" placeholder="First Name" required>
+            <input type="text" name="name" placeholder="Last Name" required>
+            <br><br>
+
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+
+            <label for="phone">Phone No.:</label>
+            <input type="number" name="phone" required>
+            <br><br>
+            
+            <label for="company">Company :</label>
+            <input type="text" name="company" required>
+            <br><br>
+
+            <label for="business">Type of Business :</label>
+            <select name="business">
+                <option value="printing">Printing</option>
+                <option value="computerSales">Computer Sales</option>
+                <option value="realEstate">Real Estate</option>
+                <option value="oil">oil</option>
+            </select>
+            <br><br>
+
+            <label for="website">Type of Website You need? :</label>
+            <select name="website">
+                <option value="blogs">Blogs</option>
+                <option value="eCommerce">E-Commerce</option>
+                <option value="socialMedia">Social Media</option>
+                <option value="quickCommerce">Quick Commerce</option>
+                <option value="lms">Learning Management System</option>
+            </select>
+            <br><br>
+
+            <label for="navbar">Choose your Navigation panel Items :</label>
+            <br><br>
+            <input type="checkbox" name="home"><label>Home</label>
+            <input type="checkbox" name="aboutUs"><label>About us</label>
+            <input type="checkbox" name="contactUs"><label>Contact us</label>
+            <input type="checkbox" name="faq"><label>FAQ</label>
+            <input type="checkbox" name="dashboard"><label>Dashboard</label>
+            <br>
+            <input type="checkbox" name="otherNavItems"><label for="otherNavItems">Others :</label><input type="text" name="otherNavItems">
+            <br><br>
+
+            <label for="services">Additional Services :</label>
+            <br><br>
+            <input type="checkbox" name="landingPage"><label>Landing Page</label>
+            <input type="checkbox" name="ADS"><label>ADS</label>
+            <input type="checkbox" name="SEO"><label>SEO</label>
+            <input type="checkbox" name="video"><label>Video</label>
+            <input type="checkbox" name="paymentGateway"><label>Payment Gateway</label>
+            <br>
+            <input type="checkbox" name="otherServices"><label for="otherServices">Others :</label><input type="text" name="otherServices">
+            <br><br>
+
+            <label for="comments">Comments :</label>
+            <textarea name="comments"></textarea>
+            <br><br>
+            <button type="submit">Sumbit</button>
+        </form>
+    </fieldset>
+    <!-- output:http://127.0.0.1:5500/Class%203/Forms/form3.html?name=Sudhanva&name=R&email=sudhanvar2127%40gmail.com&phone=07760137012&company=Hello&business=printing&business=blogs&home=on&aboutUs=on&contactUs=on&faq=on&dashboard=on&otherNavItems=on&otherNavItems=Logo&landingPage=on&ADS=on&SEO=on&video=on&paymentGateway=on&otherServices=on&otherServices=footer&comments=Nalla -->
+</body>
+</html>

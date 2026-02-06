@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 2</title>
+  </head>
+  <body>
+    <h1>Job Application Form</h1>
+    <hr />
+    <fieldset>
+      <legend>Form</legend>
+      <form>
+        <label for="name">Full Name :</label>
+        <input type="text" name="name" placeholder="First Name" required />
+        <input type="text" name="name" placeholder="Last Name" required />
+        <br /><br />
+
+        <label for="email">E-mail :</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your E-mail"
+          required
+        />
+        <br /><br />
+
+        <label for="phone">Phone :</label>
+        <input
+          type="number"
+          name="phone"
+          placeholder="+(00) 000-000-0000"
+          required
+        />
+        <br /><br />
+
+        <label for="position"
+          >What Position are you <br />
+          applying for? :</label
+        >
+        <input type="text" name="position" required />
+        <br /><br />
+
+        <label for="date">Availabel Date :</label>
+        <input type="date" name="date" required />
+        <br /><br />
+
+        <label for="status">What is your current<br />employee status</label>
+        <br /><br />
+        <input type="radio" name="status" value="employed" /><label
+          >Employed</label
+        >
+        <input type="radio" name="status" value="unEmployed" /><label
+          >Unemployed</label
+        >
+        <br /><br />
+        <input type="radio" name="status" value="selfEmployed" /><label
+          >Self-employed</label
+        >
+        <input type="radio" name="status" value="student" /><label
+          >Student</label
+        >
+        <br /><br />
+
+        <label for="resume"
+          >How do you prefer to submit<br />your Resume?</label
+        >
+        <br />
+        <input type="radio" name="resume" value="uploadFile" /><label
+          >Upload File</label
+        >
+        <input type="radio" name="resume" value="url" /><label>URL</label>
+        <br /><br />
+
+        <label for="file"><i>(Optional Upload)</i></label>
+        <input type="file" name="file" />
+        <br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </fieldset>
+
+    <!-- output:http://127.0.0.1:5500/Class%203/Forms/form2.html?name=Sudhanva&name=R&email=sudhanvar2127%40gmail.com&phone=9972799992&position=fhgfhde&date=2026-02-27&status=student&resume=uploadFile&file=home.png -->
+  </body>
+</html>

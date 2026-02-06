@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+<body>
+    <form>
+        <h1>Event Registration</h1>
+        <hr>
+        <br>
+        <br>
+
+        <label for="Name">Full Name: <sup style="color: red;">*</sup></label>
+        <input type="text" name="Name" placeholder="First Name" required>
+        <input type="text" name="Name" placeholder="Last Name" required>
+        <br><br>
+
+        <label for="dept">Department :<sup style="color: red;">*</sup></label>
+        <input type="text" name="dept" placeholder="Enter your Department" required>
+        <br><br>
+
+        <label for="rollno">Roll No. :<sup style="color: red;">*</sup></label>
+        <input type="text" name="rollno" placeholder="Enter your Roll No." required>
+        <br><br>
+
+        <label for="mail">Email :</label>
+        <input type="email" name="mail" placeholder="Enter your E-mail">
+        <br><br>
+
+        <label for="phone">Phone No. :</label>
+        <input type="number" name="phone">
+        <br><br>
+
+        <label for="event">Events :<sup style="color: red;">*</sup></label>
+        <select name="event">
+            <option value="quiz">Quiz</option>
+            <option value="eassy">Eassy</option>
+            <option value="poetry">Poetry</option>
+            <option value="creativeStoryTelling">Creative Story Telling</option>
+            <option value="debate">Debate</option>
+            <option value="multimediaPresentation">Multimedia Presentation</option>
+            <option value="wordWar">Word War</option>
+            <option value="elocution">Elocution</option>
+        </select>
+
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
