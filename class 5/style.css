@@ -1,0 +1,12 @@
+.para1{
+    background-color: brown;
+    color: white;
+    font-size: large;
+    width: 500px;
+    display: inline-block;
+}
+
+.para2{
+    display: inline-block;
+    width: 500px;
+}
